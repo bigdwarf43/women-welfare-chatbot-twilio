@@ -1,0 +1,919 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hey there!"
+      ],
+      "responses": [
+        "Hello, how are you doing?",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+   
+    },
+{
+      "tag": "feeling",
+      "patterns": [
+       "i feel bad",
+       "i feel good"
+      ],
+      "responses": [
+        "You can talk about how you feel with me!"
+      ]
+    
+    },
+    {
+      "tag": "good",
+      "patterns": [
+       "good",
+       "i feel great",
+       "I am doing good",
+       "I am doing great"
+      ],
+      "responses": [
+        "Its great to know that you are feeling good, you can talk with me!"
+      ]
+    },
+        {
+      "tag": "bad",
+      "patterns": [
+       "bad",
+       "i feel bad",
+       "I am not doing great",
+       "I don't feel good",
+       "I am not feeling good",
+       "i feel depressed"
+       
+      ],
+      "responses": [
+        "It's ok, you can talk to me about how you feel"
+      ]
+    },
+    {
+      "tag": "mental illness",
+      "patterns": [
+        "What does it mean to have a mental illness?",
+        "Who does mental illness affect?",
+        "What causes mental illness?",
+        "What are some of the warning signs of mental illness?",
+        "I feel down",
+        "I am exhausted"
+      ],
+      "responses": [
+        "Mental illnesses are health conditions that disrupt a personal thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias.",
+        "I understand that you are feeling down, It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background."
+        ],"context_set": ""
+      },
+      {
+        "tag": "treatment",
+        "patterns": [
+          "What treatment options are available?",
+          "If I become involved in treatment, what do I need to know?",
+          "Where can I learn about types of mental health treatment?"
+        ],
+        "responses": [
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+        ]
+        },
+        {
+          "tag": "can I",
+          "patterns": [
+            "How can I get help paying for my medication?",
+            "Where can I go to find therapy",
+            "Where can I learn about types of mental health treatment?",
+            "Where can I go to find a support group?",
+            "Where can I go to find inpatient care?",
+            "Where can I go to find other local services?",
+            "Where can I learn more information about clinical trials?",
+            "Where can I learn more information about creating a Psychiatric Advance Directive?"
+          ],
+          "responses": [
+            "Some pharmaceutical companies offer prescription assistance programs to individuals and families with financial needs, while others offer special drug discount cards. These programs typically require a doctor's consent and proof of your financial status. They may also require that you have either no health insurance or no prescription drug benefit through your health insurance.\nIn addition, there are prescription programs you might qualify for. Visit Healthfinder.gov to learn more.",
+            "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in children's mental health). However, there are several different types of treatment and therapy that can help.",
+        "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team.",
+        "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional.",
+        "If you or someone you know is in crisis, inpatient care can help. Inpatient care can help people stabilize on new medications, adjust to new symptoms, or get the help they need.",
+        "There are likely plenty of resources that can be used to help you find mental health treatment in your community. These resources can help you find the right therapist, and enable you to better understand viable treatment options and the treatment process.",
+        "Sometimes, consumers of mental health services may consider participating in a research study when they have not experienced improvement despite having tried a variety of medications and treatments. Research studies (also known as clinical trials) may involve the use of new medications or new treatment approaches whose safety and effectiveness is being tested. While we support innovation in the field, consumers should be cautioned that there are risks associated with clinical trials â€“ make sure you're aware of them before you enroll.",
+        "Similar to a medical advance directive or a health care power of attorney, a psychiatric advance directive is a legal document completed in a time of wellness that provides instructions regarding treatment or services one wishes to have or not have during a mental health crisis, and may help influence his or her care."
+            ],"context_set": ""
+          },
+          
+    {
+      "tag": "cure",
+      "patterns": [
+        "Are there cures for mental health problems?",
+        "If I feel better after taking medication, does this mean I am cured and can stop taking it?"
+       
+      ],
+      "responses": [
+        "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help.",
+        "It is not uncommon for people to stop taking their medication when they feel their symptoms are under control. Others may choose to stop taking their medication because of its side effects, without realizing that most side effects can be effectively managed. While it may seem reasonable to stop taking the medication, the problem is that most often, the symptoms will return. If you or your child is taking medication, it is very important that you work together with your doctor before making decisions about any changes in your treatment.\nAnother problem with stopping medication, particularly for stopping it abruptly, is that you may develop withdrawal symptoms that can be very unpleasant. If you and your doctor feel a trial off your medicine is a good idea, it is necessary to slowly decrease the dosage of medications so that these symptoms don't occur.\nIt is important that your doctor and pharmacist work together to make sure your medications are working safely and effectively. You should talk with them about how you are doing and if there are side effects that make you unwilling to continue treatment. They will work with you to develop strategies for minimizing these side effects, or will create a plan for switching to a different treatment that will be a better fit."
+        ],"context_set": ""
+      },
+      {
+        "tag": "psychiatrist",
+        "patterns": [
+          "How can I see a psychiatrist?",
+          "How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+         
+        ],
+        "responses": [
+          "A psychiatrist is a specialist doctor. In BC, you need to ask your doctor for a referral. If you don't see a regular family doctor, you can ask any doctor at a walk-in clinic for a referral. In some cases, you may be able to self-refer or make an appointment with a mental health program yourself, but that may not get you access to a psychiatrist. Contact your local mental health centre to see what's available in your area. You can search for mental health centres at www.gov.bc.ca/mentalhealth. If you need help finding your local mental health centre, call HealthlinkBC at 811 or visit www.healthlinkbc.ca and use the Find Health Service tool.",
+          "To find a family doctor (general physician), visit the College of Physicians and Surgeons of BC to use their Find a Physician tool. You can also see a family doctor at a local walk-in clinic, though it's helpful to find a regular doctor if you have ongoing care needs. You can also find a psychiatrist through the College of Physicians and Surgeons of BC. Be aware that you almost always need a doctor's referral to see a psychiatrist. You can find a registered psychologist through the BC Psychological Association and the College of Psychologists of BC. To find a clinical counsellor, visit the BC Association of Clinical Counsellors.For more on the differences between these service providers, see the article The Right Path for You: Finding your way to and through services in BC from the Finding the Right Help â€“ Navigating the System issue of Visions Journal."
+          ],"context_set": ""
+        },
+
+        {
+          "tag": "psychologist",
+          "patterns": [
+            "How can I see a psychologist?",
+            "How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+           
+          ],
+          "responses": [
+            "To find a Registered Psychologist, visit the BC Psychological Association. You can make an appointment on your own. You don't need a doctor's referral to see a psychologist. Registered Psychologists are not usually covered by MSP, so you'll have to pay for the cost of the appointment yourself. Workplace extended health benefits or Employee (Family) Assistance Programs may cover some costs. Some psychologists offer a sliding scale based on your income. If you're facing financial hardship, you can ask when you make the appointment. If you want to learn more about lower-cost options to access counselling (though not usually by Registered Psychologists), email us with your location and our information and referrals team can see what options there may be in your community.If you see a Registered Psychologist through a public mental health centre like a mental health team or outpatient psychiatry program, it will still be covered by MSP. Talk to your care provider if you have questions or want to learn more.",
+            "To find a family doctor (general physician), visit the College of Physicians and Surgeons of BC to use their Find a Physician tool. You can also see a family doctor at a local walk-in clinic, though it's helpful to find a regular doctor if you have ongoing care needs. You can also find a psychiatrist through the College of Physicians and Surgeons of BC. Be aware that you almost always need a doctor's referral to see a psychiatrist. You can find a registered psychologist through the BC Psychological Association and the College of Psychologists of BC. To find a clinical counsellor, visit the BC Association of Clinical Counsellors.For more on the differences between these service providers, see the article The Right Path for You: Finding your way to and through services in BC from the Finding the Right Help â€“ Navigating the System issue of Visions Journal."
+            ],"context_set": ""
+          },
+          {
+            "tag": "counsellor",
+            "patterns": [
+              "How can I see a psychiatrist?",
+              "How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+             
+            ],
+            "responses": [
+              "You can find directories of counsellors through their professional organizations. Registered Clinical Counsellors: visit the BC Association of Clinical Counsellors Canadian Certified Counsellors: visit the Canadian Counselling and Psychotherapy Association Canadian Professional Counsellors: visit the Canadian Professional Counsellors Association For more specialized counselling professionals, such as Marriage and Family Therapists, see the Federation of Associations for Counselling Therapists in British Columbia. You can make an appointment on your own. You don't need a doctor's referral to see a counsellor. Counsellors are not usually covered by MSP, so you'll have to pay for the cost of the appointment yourself. Workplace extended health benefits, Employee (Family) Assistance Programs, or private health insurance plans may help cover some costs. Some counsellors may offer a sliding scale based on your income. If you're facing financial hardship, you can ask when you make the appointment. Learn more about lower-cost options to access counselling or email us with your location and our information and referrals team can see what options there may be in your community. If you see a counsellor through a public mental health centre like a mental health team or outpatient psychiatry program, it will still be covered by MSP. Talk to your care provider if you have questions or want to learn more. Indigenous community members can access some counselling services locally or through the First Nations Health Authority. Contact your local Band or local Friendship Centre, or contact the First Nations Health Authority."
+              ],
+              "context_set": ""
+            },
+
+
+            {
+              "tag": "lonely",
+              "patterns": [
+                "What if I feel lonely?",
+                "How can I maintain social connections? ",
+            "I am alone and have nobody to share things with",
+            "i feel lonely"
+               
+              ],
+              "responses": [
+            
+            "Everyone feels lonely at times maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media.",
+         
+         
+            " Social connections are an opportunity to seek and share support, talk through difficult feelings, share a laugh, keep up-to-date with loved ones, and help each other cope. This pandemic is a lot for one person to deal with on their own. While measures like physical distancing and self-isolation are necessary to slow the spread of the virus, the physical separation can amplify a lot of challenging emotions like loneliness and fear. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone.",
+            "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. While you may be physically separated from friends, family members, and other loved ones, it has never been more important to maintain those social connections.Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+         
+         
+                ]
+              },
+
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye"
+            ],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful"
+            ],
+            "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+            ]
+          },
+          {
+  "tag": "mood",
+  "patterns": [
+  "I feel sad",
+  "I am feeling down",
+  "I'm not feeling well",
+  "I feel hopeless",
+  "I feel depressed"
+  ],
+  "responses": [
+  "I'm sorry to hear that. Can you tell me more about what's going on?",
+  "It can be tough to feel sad. Would you like to talk about what's been bothering you?",
+  "It sounds like you're having a tough time. Can you tell me more so I can better understand?"
+  ]
+  },
+
+  {
+  "tag": "coping",
+  "patterns": [
+  "I don't know how to cope",
+  "I need help managing my emotions",
+  "I'm feeling overwhelmed",
+  "I don't know how to relax",
+  "I need to find ways to cope"
+  ],
+  "responses": [
+  "There are many ways to cope with difficult emotions. Some things that have worked for others include mindfulness and deep breathing exercises, journaling, and physical activity. Would you like to try any of these?",
+  "It's important to have coping strategies in place for tough times. Have you tried therapy or counseling before?",
+  "Coping can be difficult, but there are many strategies that can be effective. Some people find that talking to a friend or loved one can be helpful, while others prefer more structured methods like therapy or counseling."
+  ]
+  },
+
+  {
+  "tag": "anxiety",
+  "patterns": [
+  "I'm feeling anxious",
+  "I have anxiety",
+  "I can't control my anxiety",
+  "I'm struggling with anxiety",
+  "I have panic attacks",
+  "I'm feeling anxious all the time",
+  "I can't stop worrying",
+  "I'm constantly on edge",
+  "I'm having panic attacks",
+  "I'm afraid of things that never used to bother me"
+  ],
+  "responses": [
+  "Anxiety is a very common issue, and there are many strategies that can be helpful. Some people find that therapy or counseling can be helpful in managing their anxiety, while others prefer methods like mindfulness and deep breathing exercises.",
+  "It sounds like you're going through a tough time with anxiety. Would you like to talk about what's been causing you to feel anxious?",
+  "Anxiety can be overwhelming, but there is help available. Have you considered trying therapy or counseling to manage your symptoms?",
+  "Anxiety is a common experience, especially during the teenage years when so many changes are happening. It's important to remember that there is help and support available.",
+  "There are many techniques that can help with anxiety, including deep breathing exercises, mindfulness meditation, and physical activity. It can also be helpful to talk to a trusted friend or counselor about your worries.",
+  "It's important to take care of yourself and do things that make you feel calm and relaxed. This might include activities like yoga, reading, or spending time in nature."
+  ]
+  },
+  {
+    "tag": "peer pressure",
+    "patterns": [
+    "I'm feeling pressured by my friends",
+    "I don't want to do what my friends are doing",
+    "I'm afraid of losing my friends",
+    "I don't want to disappoint my friends",
+    "I'm feeling caught between what I want and what my friends want"
+    ],
+    "responses": [
+    "Peer pressure can be a very difficult thing to navigate, especially during the teenage years. It's important to remember that you have the right to make decisions that are best for you, regardless of what your friends may want or expect.",
+    "It can be hard to stand up for yourself and make decisions that are different from your friends. But remember, true friends will support you and respect your choices, even if they're not the same as theirs.",
+    "Making decisions that align with your values and beliefs is important, even if it means going against the crowd. Consider talking to a trusted adult or counselor about how to handle these situations."
+    ]
+    },
+    
+    {
+    "tag": "self-esteem",
+    "patterns": [
+    "I don't like myself",
+    "I feel worthless",
+    "I'm not good enough",
+    "I feel like a failure",
+    "I'm constantly comparing myself to others",
+    "My friends don't like me",
+    "I'm not good enough",
+  "I feel like a failure",
+  "I'm always comparing myself to others",
+  "I'm not happy with my appearance",
+  "I don't feel confident"
+    ],
+    "responses": [
+    "Low self-esteem can be a difficult thing to deal with, but it's important to remember that everyone has strengths and weaknesses, and that's what makes us unique.",
+    "Comparing yourself to others is never a good idea, as everyone's journey is different. Try to focus on your own progress and growth, and celebrate your successes, no matter how small they may be.",
+    "It can be helpful to challenge negative self-talk by writing down your accomplishments and positive traits. You can also try talking to a trusted friend or counselor about how you're feeling."
+    ]
+    },
+    
+    {
+    "tag": "bullying",
+    "patterns": [
+    "I'm being bullied",
+    "I'm afraid to go to school",
+    "I'm constantly being teased",
+    "I don't feel safe at school",
+    "I'm being picked on by my classmates",
+    "i get bullied a lot by my friends"
+    ],
+    "responses": [
+    "Bullying is never okay, and it's important to get help and support as soon as possible. Have you considered talking to a trusted adult or counselor about what's going on?",
+    "It can be scary to speak out against bullying, but it's important to remember that you don't have to face this alone. Consider reaching out to a friend, family member, or teacher for support.",
+    "There are resources available to help with bullying, including hotlines and online support groups. It's important to take action and get the help you need to feel safe and supported."
+    ]
+    },
+      
+      {
+      "tag": "depression",
+      "patterns": [
+      "I'm feeling sad all the time",
+      "I have no energy or motivation",
+      "I'm not enjoying things that used to bring me joy",
+      "I'm sleeping too much or too little",
+      "I'm having thoughts of self-harm or suicide",
+      "I have no energy or motivation",
+  "I have trouble sleeping",
+  "I don't enjoy things I used to",
+  "I'm thinking about death or suicide",
+  "I feel ill"
+      ],
+      "responses": [
+      "If you're experiencing symptoms of depression, it's important to reach out for help as soon as possible. Talking to a trusted friend, family member, or counselor can be a good first step.",
+      "There are also many resources available for people who are struggling with depression, including hotlines, support groups, and therapy. It's important to take the first step and get the help you need.",
+      "It's important to take care of yourself and do things that bring you joy and comfort. This might include spending time with loved ones, engaging in creative activities, or doing something kind for someone else.",
+      "Depression is a serious issue that affects many people, and it's important to get help if you're feeling down or hopeless.",
+  "Some common signs of depression include persistent sadness, loss of interest in activities you used to enjoy, changes in sleep and appetite, and feelings of worthlessness or guilt.",
+  "If you're experiencing any of these symptoms, it's important to reach out to someone you trust, such as a friend, family member, or health professional. They can provide support and connect you with the resources you need to get help."
+      ]
+      },
+      
+      {
+      "tag": "relationships",
+      "patterns": [
+      "I'm having trouble with my friends",
+      "I don't know how to talk to my crush",
+      "I'm feeling left out",
+      "I'm worried about being rejected",
+      "I'm not sure how to make new friends",
+      "No one supports me"
+      ],
+      "responses": [
+      "Navigating relationships and social dynamics can be challenging, especially during the teenage years. It's important to remember that it's okay to ask for help and support when you need it.",
+      "There are many resources available to help with relationships, including books, articles, and online forums. You can also talk to a trusted friend, family member, or counselor about your concerns.",
+      "It's important to be true to yourself and make decisions that align with your values and beliefs. This might mean taking a break from a relationship that is not healthy or positive, or seeking out new friends who share your interests and values."
+      ]
+      },
+
+      {
+        "tag": "body image",
+        "patterns": [
+        "I don't like my body",
+        "I'm unhappy with my appearance",
+        "I'm always comparing myself to others",
+        "I'm worried about what others think of me",
+        "I'm considering changing my appearance through diet or surgery",
+        "I don't look good",
+        "I face is not good looking"
+        ],
+        "responses": [
+        "Body image is a complex and personal issue, and it's normal to have concerns about your appearance, especially during the teenage years when so many changes are happening.",
+        "Remember that everyone's body is different and there is no one 'right' way to look. It's important to focus on being healthy and taking care of your body, rather than trying to conform to unrealistic standards.",
+        "Building a positive body image takes time and effort, but there are many things you can do to help, such as engaging in physical activity, practicing self-care, and surrounding yourself with positive influences.",
+        "It can also be helpful to talk to someone you trust, such as a friend, family member, or counselor, about your feelings. They can provide support and perspective."
+        ]
+        },
+
+        {
+          "tag": "stress",
+          "patterns": [
+          "I feel overwhelmed",
+          "I'm having trouble sleeping",
+          "I'm always tired",
+          "I'm easily agitated",
+          "I'm having trouble concentrating"
+          ],
+          "responses": [
+          "Stress is a normal part of life, but it's important to manage it in a healthy way to avoid burnout and negative impacts on your mental and physical health.",
+          "There are many techniques you can use to reduce stress, such as deep breathing, exercise, and mindfulness. You can also try to identify the sources of stress in your life and find ways to manage them, such as delegating tasks or setting realistic expectations.",
+          "It's also important to take care of yourself by getting enough sleep, eating a balanced diet, and engaging in activities you enjoy. Talking to a trusted friend or counselor about your stress can also be helpful.",
+          "Remember that it's okay to ask for help and support when you're feeling overwhelmed. There are many resources available, such as hotlines, support groups, and therapy, to help you manage stress and build resilience."
+          ]
+          },
+
+          {
+            "tag": "mensuration problems",
+            "patterns": [
+            "What are some common symptoms of menstrual cramps?",
+            "How often should I have a pap smear test?",
+            "What are some natural remedies for relieving menstrual cramps?",
+            "What are some signs of an ovarian cyst?"
+            ],
+            "responses": [
+            "Common symptoms of menstrual cramps include pain in the lower abdomen, lower back pain, nausea, vomiting, and fatigue.",
+            "The American Cancer Society recommends that women should have a Pap smear test every three years starting at the age of 21. However, the frequency may differ depending on personal and family medical history. Consult with your healthcare provider for more information.",
+            "Some natural remedies for relieving menstrual cramps include applying heat to the lower abdomen, practicing relaxation techniques like yoga and meditation, taking herbal supplements like ginger or turmeric, and getting regular exercise.",
+            "Signs of an ovarian cyst may include pelvic pain, bloating, nausea, vomiting, irregular periods, and pain during intercourse."
+            ]
+            },
+            {
+            "tag": "breast cancer",
+            "patterns": [
+            "How can I reduce the risk of developing breast cancer?",
+            "What is breast cancer?",
+            "What are the risk factors for breast cancer?",
+            "How can I reduce my risk of breast cancer?",
+            "What are the signs and symptoms of breast cancer?",
+            "When should I start getting mammograms?",
+            "What should I expect during a mammogram?",
+            "How accurate are mammograms?",
+            "What happens if a mammogram detects a suspicious area?",
+            "What are the treatment options for breast cancer?",
+            "What is breast reconstruction?",
+            "How long does it take to recover from breast cancer treatment?",
+            "What are the side effects of breast cancer treatment?",
+            "Can breast cancer recur after treatment?",
+            "What is metastatic breast cancer?"
+            ],
+            "responses": [
+            "Some ways to reduce the risk of developing breast cancer include maintaining a healthy diet and exercise routine, limiting alcohol consumption, avoiding smoking, conducting regular breast self-exams, and getting regular mammograms.",
+            "Breast cancer is a type of cancer that starts in the breast tissue. It can occur in both men and women, but it is more common in women.",
+            "The risk factors for breast cancer include being female, getting older, having a family history of breast cancer, inheriting certain genes, having dense breast tissue, having a personal history of breast cancer or other breast conditions, being overweight or obese, and drinking alcohol.",
+            "Some ways to reduce your risk of breast cancer include maintaining a healthy weight, exercising regularly, limiting alcohol consumption, not smoking, getting regular mammograms, and knowing your family history.",
+            "The signs and symptoms of breast cancer may include a lump or thickening in the breast tissue, changes in the size or shape of the breast, changes in the nipple, such as a nipple that turns inward or discharges fluid, and skin changes, such as dimpling or puckering.",
+            "The American Cancer Society recommends that women with an average risk of breast cancer start getting mammograms at age 45. However, women with a higher risk may need to start screening earlier or get screened more often.",
+            "During a mammogram, your breast will be compressed between two plates while an X-ray is taken. The compression may cause some discomfort, but it should only last a few seconds.",
+            "Mammograms can detect most breast cancers, but they are not perfect. In some cases, a breast cancer may be missed, or a mammogram may suggest a cancer when one is not actually present.",
+            "If a mammogram detects a suspicious area, your doctor may recommend further testing, such as a biopsy, to determine if it is cancerous.",
+            "The treatment options for breast cancer may include surgery, radiation therapy, chemotherapy, hormone therapy, and targeted therapy.",
+            "Breast reconstruction is a surgical procedure that rebuilds the breast tissue after a mastectomy. It can be done at the same time as the mastectomy or at a later time.",
+            "The recovery time from breast cancer treatment varies depending on the type of treatment received. Some women may be able to return to normal activities within a few weeks, while others may need several months to recover.",
+            "The side effects of breast cancer treatment may include fatigue, nausea, vomiting, hair loss, skin irritation, and lymphedema (swelling in the arm).",
+            "Yes, breast cancer can recur after treatment. The risk of recurrence depends on several factors, including the stage of the cancer, the type of treatment received, and the woman's overall health.",
+            "Metastatic breast cancer is breast cancer that has spread to other parts of the body, such as the bones, lungs, or liver."]
+            },
+            {
+            "tag": "hygiene",
+            "patterns": [
+            "Why is personal hygiene important?",
+            "What are some basic personal hygiene practices?",
+            "How often should I wash my hands?",
+            "How often should I brush my teeth?",
+            "How often should I shower or bathe?",
+            "How should I care for my hair?",
+            "How can I prevent body odor?",
+            "How can I prevent the spread of germs?",
+            "How can I prevent the spread of head lice?",
+            "How can I prevent fungal infections?"
+            ],
+            "responses": [
+            "Personal hygiene is important to maintain good health and prevent the spread of illness and disease. It helps to prevent the growth of harmful bacteria and viruses on the body and can prevent infections and illness.",
+            "Basic personal hygiene practices include washing your hands regularly with soap and water, brushing and flossing your teeth, showering or bathing regularly, and washing your hair.",
+            "You should wash your hands frequently throughout the day, especially before eating, after using the bathroom, after touching animals or handling animal waste, and after coughing, sneezing, or blowing your nose.",
+            "You should brush your teeth at least twice a day, once in the morning and once before bed, using fluoride toothpaste and a soft-bristled brush.",
+            "It is recommended that you shower or bathe at least once a day, or more frequently if you are physically active or sweat heavily.",
+            "To care for your hair, you should wash it regularly with shampoo and conditioner, avoid using harsh chemicals or heat styling tools, and protect it from the sun and environmental damage.",
+            "To prevent body odor, you should shower or bathe regularly, use antiperspirant or deodorant, wear clean clothes, and avoid foods that can cause body odor, such as garlic and onions.",
+            "To prevent the spread of germs, you should cover your mouth and nose when coughing or sneezing, avoid touching your face, and disinfect surfaces that are frequently touched, such as doorknobs and light switches.",
+            "To prevent the spread of head lice, you should avoid sharing combs, brushes, hats, and other personal items with others, and inspect your scalp regularly for signs of infestation.",
+            "To prevent fungal infections, you should keep your skin clean and dry, wear clean and dry clothes, avoid sharing personal items like towels or socks, and wear protective shoes in public places like locker rooms or pools"]
+            },
+            {
+              "tag": "periods",
+              "patterns": [
+              "What causes painful periods?",
+              "What are some common symptoms of painful periods?",
+              "What are some home remedies that can help relieve painful periods?",
+              "When should I see a doctor about my painful periods?",
+              "What medical treatments are available for painful periods?",
+              "How can I manage my painful periods while at work or school?"
+              ],
+              "responses":[
+              "Painful periods, also known as dysmenorrhea, can be caused by a variety of factors, including hormonal imbalances, uterine fibroids, endometriosis, pelvic inflammatory disease (PID), and ovarian cysts.",
+            "Symptoms of painful periods can include cramping in the lower abdomen, lower back pain, nausea, vomiting, diarrhea, fatigue, and headache.",
+            "Home remedies for painful periods can include using a heating pad or hot water bottle on the lower abdomen, taking over-the-counter pain relievers like ibuprofen or naproxen, drinking plenty of water, and getting regular exercise.",
+            "You should see a doctor if your painful periods are interfering with your daily activities or if you have symptoms like heavy bleeding, irregular periods, or severe cramping that is not relieved by over-the-counter pain relievers.",
+            "Medical treatments for painful periods can include prescription pain relievers, hormonal birth control, and in severe cases, surgery to remove uterine fibroids or treat endometriosis.",
+            "You can manage your painful periods while at work or school by planning ahead, taking pain relievers as needed, using heat therapy, and wearing comfortable clothing. It may also be helpful to talk to your employer or school about accommodations if needed."
+              ]
+            },
+            {
+            "tag": "premenstrual syndrome",
+            "patterns": [
+            "What is premenstrual syndrome?",
+            "What are the symptoms of PMS?",
+            "How can I manage PMS symptoms?",
+            "Are there natural remedies for PMS?",
+            "When should I see a doctor about PMS?",
+            "What medical treatments are available for PMS?",
+            "Can PMS be prevented?"
+            ],
+            "responses": [
+            "Premenstrual syndrome (PMS) is a group of physical and emotional symptoms that can occur in the days or weeks leading up to menstruation.",
+            "Common symptoms of PMS can include bloating, breast tenderness, fatigue, mood swings, irritability, and headaches.",
+            "You can manage PMS symptoms by getting regular exercise, eating a healthy diet, getting enough sleep, and reducing stress. Over-the-counter pain relievers like ibuprofen or naproxen can also help with symptoms like cramping and headaches.",
+            "Some natural remedies that may help with PMS symptoms include taking magnesium supplements, using essential oils like lavender or chamomile, and drinking herbal teas like ginger or raspberry leaf.",
+            "You should see a doctor if your PMS symptoms are severe, interfering with your daily activities, or if you have symptoms like heavy bleeding or irregular periods.",
+            "Medical treatments for PMS can include prescription pain relievers, hormonal birth control, and in severe cases, antidepressants.",
+            "While PMS cannot be prevented entirely, you may be able to reduce your risk of symptoms by maintaining a healthy lifestyle, managing stress, and getting regular exercise. Hormonal birth control can also help regulate hormone levels and reduce PMS symptoms."
+            ]
+            },
+            {
+            "tag": "menopause",
+            "patterns": [
+            "What is menopause?",
+            "Can you explain menopause?",
+            "What happens during menopause?",
+            "What are the symptoms of menopause?",
+            "How long does menopause last?",
+            "What are some natural remedies for menopause symptoms?",
+            "When should I see a doctor about my menopause symptoms?",
+            "What medical treatments are available for menopause symptoms?",
+            "How can I reduce my risk of menopause symptoms?"
+            ],
+            "responses": [
+            "Menopause is a natural biological process that marks the end of a woman's reproductive years. It occurs when the ovaries stop producing eggs and levels of the hormones estrogen and progesterone decline.",
+            "Common symptoms of menopause can include hot flashes, night sweats, vaginal dryness, mood swings, irritability, fatigue, and difficulty sleeping.",
+            "Menopause can last for several years, with the average length being around four years. However, some women may experience symptoms for much longer.",
+            "Natural remedies that may help manage menopause symptoms include getting regular exercise, eating a healthy diet, getting enough sleep, and reducing stress. Certain herbal supplements like black cohosh and red clover may also be helpful.",
+            "You should see a doctor if your menopause symptoms are interfering with your daily activities or if you have symptoms like heavy bleeding, severe mood changes, or other concerning symptoms.",
+            "Medical treatments for menopause symptoms can include hormone replacement therapy (HRT), which involves taking estrogen and progesterone supplements to replace hormones that are no longer produced by the ovaries. Other medications like low-dose antidepressants or blood pressure medications may also be prescribed.",
+            "While menopause cannot be prevented entirely, maintaining a healthy lifestyle may help reduce your risk of symptoms. This includes eating a healthy diet, getting regular exercise, and avoiding smoking and excessive alcohol consumption."
+            ]
+            },
+            {
+            "tag": "vaginal infection",
+            "patterns": [
+            "What are vaginal infections?",
+            "What are some common symptoms of vaginal infections?",
+            "What are some common types of vaginal infections?",
+            "What causes vaginal infections?",
+            "How are vaginal infections treated?",
+            "Can vaginal infections be prevented?",
+            "When should I see a doctor about my vaginal infection symptoms?"
+            ],
+            "responses": [
+            "Vaginal infections are infections that occur in the vagina, often caused by an overgrowth of certain bacteria or yeast.",
+            "Common symptoms of vaginal infections can include itching, burning, and irritation in the vaginal area, abnormal vaginal discharge that may be thick or discolored, and pain during sex or urination.",
+            "Common types of vaginal infections include bacterial vaginosis, yeast infections, and trichomoniasis.",
+            "Vaginal infections are often caused by an overgrowth of certain types of bacteria or yeast in the vagina. Other factors like hormonal changes, sexual activity, and the use of certain medications may also contribute to vaginal infections.",
+            "Treatment for vaginal infections depends on the specific type of infection. Bacterial vaginosis and trichomoniasis are typically treated with antibiotics, while yeast infections are often treated with antifungal medications. Over-the-counter treatments like creams and suppositories may also be helpful for some types of vaginal infections.",
+            "While vaginal infections cannot always be prevented, there are certain steps you can take to reduce your risk. These include practicing good hygiene, avoiding douching, wearing breathable cotton underwear, and using condoms during sex to reduce the risk of sexually transmitted infections.",
+            "You should see a doctor if your symptoms are severe or if you have symptoms like fever, abdominal pain, or a strong odor from vaginal discharge. You should also see a doctor if you are pregnant, as some vaginal infections can increase the risk of complications during pregnancy."
+            ]
+            },
+            {
+            "tag": "sexually transmitted infections",
+            "patterns": [
+            "What are sexually transmitted infections?",
+            "What are some common STIs that can affect women?",
+            "What are some common symptoms of STIs in women?",
+            "How are sexually transmitted infections treated?",
+            "How can I reduce my risk of getting STIs?",
+            "Can sexually transmitted infections be cured?",
+            "When should I see a doctor about my sexually transmitted infections symptoms?",
+            "Can you list some sexually transmitted infections for girls and women?"
+            ],
+            "responses": [
+            "Sexually transmitted infections (STIs) are infections that are spread through sexual contact, including vaginal, anal, and oral sex.",
+            "Common STIs that can affect women include chlamydia, gonorrhea, genital herpes, human papillomavirus (HPV), syphilis, and HIV/AIDS.",
+            "Common symptoms of STIs in women can include unusual vaginal discharge, genital itching or burning, pain during sex, and painful urination. However, many STIs do not cause any symptoms, so it's important to get regular STI testing if you are sexually active.",
+            "Treatment for STIs depends on the specific type of infection. Many STIs can be treated with antibiotics or antiviral medications. It's important to get tested and treated for STIs as soon as possible, as untreated STIs can lead to serious health complications.",
+            "There are several ways to reduce your risk of getting STIs, including using condoms or dental dams during sexual activity, getting regular STI testing if you are sexually active, and limiting your number of sexual partners.",
+            "Many STIs can be cured with proper treatment, but some STIs like herpes and HIV cannot be cured. However, there are medications and treatments available to help manage symptoms and reduce the risk of transmitting the infection to others.",
+            "You should see a doctor if you have symptoms of an STI, if you have had unprotected sex with a new partner or a partner who may have an STI, or if you are due for routine STI testing. Early detection and treatment of STIs can help prevent serious health complications.",
+            "Here are some sexually transmitted infections (STIs) that can affect girls and women:Chlamydia: This is a bacterial infection that can cause discharge, pain during urination, and pelvic pain. It can also lead to infertility if left untreated.Gonorrhea: Like chlamydia, this is a bacterial infection that can cause similar symptoms such as discharge and pain during urination. If left untreated, it can lead to infertility and increase the risk of other STIs.HPV (human papillomavirus): This is a viral infection that can cause genital warts and increase the risk of developing cervical cancer. It can also cause other types of cancer, such as anal, vaginal, and throat cancer.Herpes: This is a viral infection that can cause painful blisters or sores on the genitals, mouth, or rectum. It can be spread even when there are no visible symptoms.HIV (human immunodeficiency virus): This is a viral infection that attacks the immune system and can lead to acquired immunodeficiency syndrome (AIDS). It is spread through the exchange of bodily fluids, such as blood and semen, and can have serious long-term health consequences.It is important for girls and women to practice safe sex, including the use of condoms and regular testing for STIs, in order to prevent the spread of infections and protect their health."
+            ]
+            },
+            {
+              "tag": "pregnancy",
+              "patterns": [
+                "What are some early signs of pregnancy?",
+                "How can I prepare for a healthy pregnancy?",
+                "What are some common complications that can occur during pregnancy?",
+                "What are some pain relief options during childbirth?",
+                "What is postpartum depression?",
+                "What are some common postpartum complications?",
+                "How can I prepare for childbirth?"
+              ],
+              "responses": [
+                "Some early signs of pregnancy can include missed periods, fatigue, nausea, and breast tenderness. However, not all women experience these symptoms, and some women may have no symptoms at all in the early stages of pregnancy.",
+                "To prepare for a healthy pregnancy, you can start by eating a nutritious diet, taking prenatal vitamins, and getting regular exercise. You should also avoid alcohol, smoking, and other substances that can harm your baby. It's important to see a healthcare provider regularly for prenatal care and to discuss any concerns you may have.",
+                "Common complications that can occur during pregnancy include gestational diabetes, preeclampsia, preterm labor, and miscarriage. It's important to get regular prenatal care and to report any symptoms or concerns to your healthcare provider.",
+                "Pain relief options during childbirth can include epidural anesthesia, intravenous pain medications, and natural methods like breathing techniques and position changes. Your healthcare provider can discuss the options that are best for you based on your individual needs and preferences.",
+                "Postpartum depression is a type of depression that can occur after giving birth. It's characterized by feelings of sadness, hopelessness, and fatigue that can interfere with a mother's ability to care for herself and her baby. Postpartum depression is treatable, and it's important to seek help if you are experiencing symptoms.",
+                "Common postpartum complications can include vaginal tearing or infection, hemorrhage, and postpartum depression. It's important to get regular postpartum care and to report any symptoms or concerns to your healthcare provider.",
+                "To prepare for childbirth, you can take childbirth education classes, create a birth plan, and discuss your options with your healthcare provider. It's also important to practice relaxation techniques and to have a support system in place."
+              ]
+            },
+            {
+              "tag": "government schemes",
+              "patterns": [
+                "What is Mahila e-Haat?",
+                "What is the National Mission for Empowerment of Women?",
+                "What is STEP?",
+                "What is the Women's Enterprise Programme?",
+                "What is the Women in STEM Initiative?",
+                "What is the purpose of these government schemes for women empowerment?",
+                "What is the Swadhar Greh scheme?",
+                "What is the One Stop Centre Scheme?",
+                "What is the Ujjawala scheme?",
+                "What is the Mahila Shakti Kendra scheme?",
+                "What is the Maternity Benefit Programme?",
+                "What is the Beti Bachao, Beti Padhao scheme?",
+                "What is the National Nutrition Mission?"
+              ],
+              "responses": [
+                "Mahila e-Haat is an online marketing platform launched by the Government of India to promote the products made by women entrepreneurs.",
+                "The National Mission for Empowerment of Women is an initiative launched by the Government of India to ensure that women have access to all the necessary information, services, and programs to empower themselves.",
+                "STEP stands for Support to Training and Employment Programme for Women. It is a scheme implemented by the Government of India that aims to provide vocational training and employment opportunities to women.",
+                "The Women's Enterprise Programme is a program launched by the Government of the United Kingdom that provides support and funding to women entrepreneurs.",
+                "The Women in STEM Initiative is an initiative launched by the European Union that aims to promote the participation of women in science, technology, engineering, and mathematics (STEM) fields.",
+                "The purpose of these government schemes is to promote women's empowerment and gender equality by providing women with access to education, training, employment opportunities, and other resources that can help them achieve economic and social independence.",
+                "The Swadhar Greh scheme is a government of India initiative aimed at providing temporary accommodation, rehabilitation and economic support to women in difficult circumstances like single women, widows and women who have been trafficked.",
+                "The One Stop Centre Scheme is a government of India initiative aimed at providing support and assistance to women affected by violence, in a safe and secure environment.",
+                "The Ujjawala scheme is a government of India initiative aimed at preventing trafficking of women and children for commercial sexual exploitation, and providing rehabilitation services to victims of trafficking.",
+                "The Mahila Shakti Kendra scheme is a government of India initiative aimed at empowering rural women through community participation and involvement.",
+                "The Maternity Benefit Programme is a government of India initiative aimed at providing financial assistance to pregnant and lactating mothers so that they can take care of their health and the health of their newborns.",
+                "The Beti Bachao, Beti Padhao scheme is a government of India initiative aimed at promoting the education of girls and addressing gender discrimination and violence against women.",
+                "The National Nutrition Mission is a government of India initiative aimed at improving the nutritional status of women and children by providing them with access to nutrition-related services, education and awareness."
+              ]
+            },
+            {
+            "tag": "women career opportunities",
+            "patterns": [
+            "What is the STEP scheme?",
+            "What is the Pradhan Mantri Matru Vandana Yojana?",
+            "What is the National Scheme of Incentive to Girls for Secondary Education?",
+            "What are some job opportunities for women?",
+            "What are some companies that prioritize hiring women?",
+            "What are some websites that offer job listings for women?",
+            "What are some internship opportunities for women?",
+            "What are some organizations that offer internship opportunities for women?",
+            "What are some resources for women seeking job or internship opportunities?",
+            "Are there any programs or initiatives that support women in their careers?"
+            ],
+            "responses": [
+            "The STEP scheme is a government of India initiative aimed at providing vocational training and employment opportunities to women.",
+            "The Pradhan Mantri Matru Vandana Yojana is a government of India initiative aimed at providing financial assistance to pregnant and lactating mothers to meet their nutritional needs during pregnancy and lactation.",
+            "The National Scheme of Incentive to Girls for Secondary Education is a government of India initiative aimed at encouraging girls to pursue secondary education by providing them with a cash incentive.",
+            "There are many job opportunities for women in various fields such as healthcare, education, technology, business, finance, and more.",
+            "Some companies that prioritize hiring women include IBM, Deloitte, Procter & Gamble, Accenture, and Cisco.",
+            "Some websites that offer job listings for women include LinkedIn for Women, Glassdoor, and FlexJobs.",
+            "There are many internship opportunities for women in various fields such as engineering, healthcare, education, marketing, and more. Many companies offer internships specifically for women, such as Microsoft's Women's Internship Program.",
+            "Some organizations that offer internship opportunities for women include Women in Technology, Women in Engineering, Women in Science, Women in Business, and Women in Healthcare.",
+            "Some resources for women seeking job or internship opportunities include networking events, career fairs, professional associations, mentorship programs, and career coaching services. Additionally, many universities and colleges offer career services to students and alumni.",
+            "Yes, there are many programs and initiatives that support women in their careers, such as the Women's Leadership Program, Lean In Circles, and the Women's Empowerment Principles. Additionally, many companies offer mentorship and professional development programs for women."
+            ]
+            },
+            {
+            "tag": "scholarships for women",
+            "patterns": [
+            "What are some government initiatives aimed at providing job opportunities for women?",
+            "What are some companies that offer work-from-home opportunities for women?",
+            "What are some resources for women seeking to start their own businesses?",
+            "Are there any government initiatives that support women entrepreneurs?",
+            "Are there any scholarships or grants available for women pursuing higher education or vocational training?",
+            "What are some organizations that offer mentorship and networking opportunities for women in business?"
+            ],
+            "responses": [
+            "Some government initiatives aimed at providing job opportunities for women include the Mahila e-Haat initiative, the National Rural Livelihoods Mission, and the National Career Service Portal for Women.",
+            "Many companies offer work-from-home opportunities for women, including Amazon, Dell, Hilton, Humana, and Salesforce.",
+            "Some resources for women seeking to start their own businesses include the National Women's Business Council, the National Association of Women Business Owners, the Small Business Administration's Office of Women's Business Ownership, and the Women's Business Center.",
+            "Yes, the government of India has several initiatives to support women entrepreneurs, including the Annapurna scheme, the Stree Shakti Package for Women Entrepreneurs, and the Trade Related Entrepreneurship Assistance and Development (TREAD) Scheme.",
+            "Yes, there are many scholarships and grants available for women pursuing higher education or vocational training, including the Women Techmakers Scholarship, the Patsy Takemoto Mink Education Foundation Scholarship, and the Society of Women Engineers Scholarship.",
+            "Some organizations that offer mentorship and networking opportunities for women in business include the National Association of Women Business Owners, Women in Technology International, and the National Association of Professional Women."
+            ]
+            },
+            {
+            "tag": "Women competitions",
+            "patterns": [
+            "Are there any initiatives aimed at improving gender diversity in the workplace?",
+            "What are some hackathons or competitions exclusively for women?",
+            "What are some entrepreneurship competitions for women?",
+            "What are some hackathons or competitions for women in tech?",
+            "Are there any competitions for women in social entrepreneurship?"
+            ],
+            "responses": [
+            "Yes, there are many initiatives aimed at improving gender diversity in the workplace, such as the 30% Club, the Gender Equity Now initiative, and the Paradigm for Parity coalition.",
+            "Some hackathons or competitions exclusively for women include the SheHacks Boston hackathon, the Women Who Code hackathon, and the Women Startup Challenge.",
+            "Some entrepreneurship competitions for women include the Women's Business Challenge, the Cartier Women's Initiative Awards, and the Hera Venture Summit.",
+            "Some hackathons or competitions for women in tech include the Technovation Challenge, the Women in Tech Challenge, and the Grace Hopper Celebration of Women in Computing.",
+            "Yes, some competitions for women in social entrepreneurship include the Halcyon Incubator Social Entrepreneurship Fellowship, the Global Social Entrepreneurship Competition, and the Dell Social Innovation Challenge."
+            ]
+            },
+            {
+            "tag": "Women hackathons",
+            "patterns": [
+            "Are there any hackathons or competitions for women in STEM?",
+            "What are some coding competitions for women?",
+            "Are there any hackathons or competitions specifically for women of color?",
+            "What are some hackathons or competitions for women in cybersecurity?",
+            "What are some hackathons or competitions for women in health tech?",
+            "Are there any competitions for women in fashion tech?",
+            "What are some hackathons or competitions for women in environmental science?",
+            "Are there any hackathons or competitions for women in transportation technology?",
+            "What are some hackathons or competitions for women in space technology?",
+            "Are there any competitions for women in virtual reality or augmented reality?",
+            "What are some hackathons or competitions for women in blockchain?",
+            "Are there any competitions for women in fashion tech?",
+                "What are some hackathons or competitions for women in environmental science?",
+                "Are there any hackathons or competitions for women in transportation technology?",
+                "What are some hackathons or competitions for women in space technology?",
+                "Are there any competitions for women in virtual reality or augmented reality?",
+                "What are some hackathons or competitions for women in blockchain?",
+                "Are there any competitions for women in civic technology?",
+                "What are some hackathons or competitions for women in social media?",
+                "Are there any hackathons or competitions for women in mental health?",
+                "What are some competitions for women in data science?",
+                "Are there any hackathons or competitions for women in 5G technology?",
+                "What are some hackathons or competitions for women in education technology?",
+                "Are there any competitions for women in legal tech?",
+                "What are some scholarships provided by the government for women pursuing undergraduate studies?"
+            ],
+            "responses": [
+            "Yes, some hackathons or competitions for women in STEM include the Girls in STEM Competition, the Women in Science and Engineering Hackathon, and the National STEM Video Game Challenge for Girls.",
+            "Some coding competitions for women include the Women in Data Science Datathon, the Women in Code Hackathon, and the Female Founders Challenge.",
+            "Yes, some hackathons or competitions specifically for women of color include the Black Women Talk Tech Conference, the Black Girls Code hackathon, and the Latina Girls Code hackathon.",
+            "Some hackathons or competitions for women in cybersecurity include Women in Security and Privacy, Women in Cybersecurity Conference, and Women's Society of Cyberjutsu.",
+            "Some hackathons or competitions for women in health tech include Women in Health IT Hackathon, HealthTech Women Hackathon, and AthenaHacks Health.",
+            "Yes, some competitions for women in fashion tech include Fashion Tech Hackathon, Women's Wear Daily Digital Forum, and Decoded Fashion Hackathon.",
+            "Some hackathons or competitions for women in environmental science include Women in Climate Tech, Women in Renewable Energy Hackathon, and Women in Sustainable Energy Hackathon.",
+            "Some hackathons or competitions for women in transportation technology include Women in Mobility Hackathon, Women in Transportation Seminar Hackathon, and Women in Transportation Data Dive.",
+            "Some hackathons or competitions for women in space technology include Space Apps Women in Data, Women in Aerospace Hackathon, and Space Challenge for Women.",
+            "Yes, some competitions for women in virtual reality or augmented reality include Women in VR/AR Hackathon, Women in XR Hackathon, and Women in Immersive Tech.",
+            "Some hackathons or competitions for women in blockchain include Women in Blockchain Hackathon, Women in Crypto Hackathon, and She256 Hackathon.",
+            "Yes, some competitions for women in fashion tech include Fashion Tech Hackathon, Women's Wear Daily Digital Forum, and Decoded Fashion Hackathon.",
+                "Some hackathons or competitions for women in environmental science include Women in Climate Tech, Women in Renewable Energy Hackathon, and Women in Sustainable Energy Hackathon.",
+                "Yes, some hackathons or competitions for women in transportation technology include Women in Mobility Hackathon, Women in Transportation Seminar Hackathon, and Women in Transportation Data Dive.",
+                "Some hackathons or competitions for women in space technology include Space Apps Women in Data, Women in Aerospace Hackathon, and Space Challenge for Women.",
+                "Yes, some competitions for women in virtual reality or augmented reality include Women in VR/AR Hackathon, Women in XR Hackathon, and Women in Immersive Tech.",
+                "Some hackathons or competitions for women in blockchain include Women in Blockchain Hackathon, Women in Crypto Hackathon, and She(256) Hackathon.",
+                "Yes, some competitions for women in civic technology include Women's Civic Leadership Hackathon, Women in Civic Tech Fellowship, and Women in Government Technology Hackathon.",
+                "Some hackathons or competitions for women in social media include Women in Social Media Hackathon, Women in Digital Media Summit, and She Leads Africa Pitch Competition.",
+                "Yes, some hackathons or competitions for women in mental health include Women in Health Tech Mental Health Hackathon, Mental Health Hackathon for Women, and Women's Mental Health Hackathon.",
+                "Some competitions for women in data science include WiDS Datathon, Women in Data Science Challenge, and Data Science Hackathon for Women.",
+                "Yes, some hackathons or competitions for women in 5G technology include Women in 5G Hackathon, 5G Women's Innovation Challenge, and 5G Women's Challenge.",
+                "Some hackathons or competitions for women in education technology include Women in EdTech Hackathon, EdTech Women Pitch Competition, and Education Innovation Summit Women's Pitch.",
+                "Yes, some competitions for women in legal tech include Women in Legal Tech Hackathon, Legal Women Empowerment Hackathon, and Women in Law Tech Challenge.",
+                "Some scholarships provided by the government for women pursuing undergraduate studies include the Indira Gandhi Scholarship for Single Girl Child, Begum Hazrat Mahal Scholarship, and Post Matric Scholarship Scheme for Minorities."
+            ]
+            },
+            {
+            "tag": "women's colleges and scholarships",
+            "patterns": [
+            "What are some scholarships for women pursuing courses in science and technology?",
+            "Are there any women's colleges that offer online courses?",
+            "What are some of the benefits of attending a women's college?",
+            "What are some of the challenges faced by women's colleges?",
+            "Are women's colleges more expensive than coeducational colleges?",
+            "Do women's colleges still have a place in today's society?"
+            ],
+            "responses": [
+            "There are several scholarships available for women pursuing courses in science and technology. Some of them are: The Society of Women Engineers Scholarship Program, Google Anita Borg Memorial Scholarship, Adobe Research Women-in-Technology Scholarship, Women Techmakers Scholarship Program, Microsoft Research Women's Fellowship Program, Zonta International Amelia Earhart Fellowship, AAUW Selected Professions Fellowship, Jane M. Klausman Women in Business Scholarship, Women in Aerospace Foundation Scholarship, National Physical Science Consortium Women in Science Scholarship.",
+            "Yes, some women's colleges also offer online courses. Examples include: Bay Path University Online, Saint Mary-of-the-Woods College Online, College of Saint Elizabeth Online, Newcomb College Institute Online at Tulane University.",
+            "Attending a women's college can have several benefits, such as: a more supportive and empowering environment for women, opportunities for leadership and personal growth, greater access to mentoring and networking with successful women, more opportunities for women in traditionally male-dominated fields, such as science, technology, engineering, and math (STEM), and a focus on women's issues and women's perspectives in the curriculum.",
+            "Some challenges faced by women's colleges include: difficulty in attracting and retaining students due to the availability of coeducational colleges, difficulty in attracting and retaining faculty due to lower salaries and limited career opportunities, the need to constantly adapt to changing social and cultural norms around gender and sexuality, and the need to address issues of diversity and inclusion, particularly in terms of race, ethnicity, and socioeconomic status.",
+            "Women's colleges are not necessarily more expensive than coeducational colleges. However, some women's colleges may have higher tuition rates due to their smaller size and specialized programs. It is important to research the cost of attendance for each individual college.",
+            "Women's colleges still have a place in today's society for those who are looking for a supportive and empowering environment that is focused on women's issues and perspectives. Additionally, women's colleges can provide unique opportunities for women in STEM fields and leadership positions."
+            ]
+            }, 
+            {
+            "tag": "women's sports",
+            "patterns": [
+            "Who are some famous women athletes in the world?",
+            "What are some popular sports played by women?",
+            "How have women's sports evolved over time?",
+            "What are some challenges faced by women in sports?",
+            "What is Title IX and how has it impacted women's sports?",
+            "Who are some trailblazers in women's sports?",
+            "What is the gender pay gap in women's sports?",
+            "What are some organizations that support women in sports?",
+            "What are some of the biggest international events for women's sports?",
+            "How can we encourage more girls to participate in sports?",
+            "What are some of the health benefits of participating in sports for women?",
+            "What are some common misconceptions about women's sports?",
+            "What is the impact of representation and media coverage on women's sports?"
+            ],
+            "responses": [
+            "Some famous women athletes in the world are Serena Williams, Simone Biles, Naomi Osaka, Alex Morgan, Megan Rapinoe, Lindsey Vonn, Ronda Rousey, Danica Patrick, Maria Sharapova, and Marta Vieira da Silva.",
+            "Some popular sports played by women are basketball, soccer, tennis, volleyball, gymnastics, swimming, track and field, softball, field hockey, and figure skating.",
+            "Women's sports have evolved significantly over time, from being banned or heavily restricted to now being widely accepted and supported. Women now compete in more sports than ever before, and have made great strides in terms of breaking down gender barriers and achieving gender equality in the sports world.",
+            "Some challenges faced by women in sports include gender discrimination, lack of funding and support, pay disparities, media coverage and representation, and lack of opportunities for advancement and leadership roles.",
+            "Title IX is a federal law in the United States that prohibits gender discrimination in education, including athletics. Title IX has had a significant impact on women's sports, as it has led to increased opportunities for female athletes, greater funding and resources for women's sports programs, and more equitable treatment for women athletes.",
+            "Some trailblazers in women's sports include Billie Jean King, Wilma Rudolph, Babe Didrikson Zaharias, Martina Navratilova, Mia Hamm, and Althea Gibson.",
+            "The gender pay gap in women's sports refers to the disparity in earnings between male and female athletes. This gap can be attributed to a number of factors, including differences in media coverage, sponsorship opportunities, and prize money.",
+            "Some organizations that support women in sports include Women's Sports Foundation, SheIS, espnW, National Association of Girls and Women in Sport, and Women's Basketball Coaches Association.",
+            "Some of the biggest international events for women's sports are the Olympic Games, the Women's World Cup, the Women's Tennis Association Tour, the Women's National Basketball Association, and the Women's Golf Association Tour.",
+            "We can encourage more girls to participate in sports by providing access to sports programs and equipment, promoting positive role models, offering mentorship opportunities, and challenging gender stereotypes about sports and physical activity.",
+            "Some of the health benefits of participating in sports for women include improved cardiovascular health, increased strength and flexibility, reduced risk of chronic diseases, improved mental health and well-being, and better sleep.",
+            "Some common misconceptions about women's sports include the belief that they are less competitive, less physically demanding, and less entertaining than men's sports. These beliefs are not supported by the facts, as women's sports are just as challenging and exciting as men's sports.",
+            "Representation and media coverage have a significant impact on women's sports, as they can help to increase visibility and interest in women's sports, provide role models for young girls, and break down gender"]
+            },
+            {
+            "tag": "working women in India",
+            "patterns": [
+            "What is the median annual income for working women in India?",
+            "How many women work in STEM occupations in India?",
+            "What percentage of working mothers take maternity leave in India?",
+            "What percentage of working women in India have college degrees?",
+            "How many women are CEOs of companies in India?",
+            "What is the gender breakdown of minimum wage workers in India?",
+            "What percentage of working women in India have flexible work arrangements?",
+            "How many women-owned businesses are there in India?",
+            "What is the percentage of women who work part-time in India?",
+            "What is the average retirement age for women in India?"
+            ],
+            "responses": [
+            "According to data from the Periodic Labour Force Survey (PLFS), the median monthly income for women who are regular wage/salaried workers in India was ₹14,375 (approximately $195 USD) in 2018-2019.",
+            "According to data from the National Sample Survey Office (NSSO), women make up approximately 14% of the total workforce in science and engineering occupations in India as of 2018. Within specific STEM fields, women make up 34% of workers in computer-related fields and 7% in engineering fields.",
+            "According to data from the Maternity Benefit (Amendment) Act, 2017, eligible women workers in India are entitled to up to 26 weeks of maternity leave. However, access to paid maternity leave can vary widely by industry, occupation, and employer size, and many women do not have access to paid leave or must use a combination of paid and unpaid leave to care for a new child.",
+            "According to data from the PLFS, 9% of women who are regular wage/salaried workers in India have a graduate degree or higher, as of 2018-2019.",
+            "As of 2021, there are only a few women CEOs of large companies in India. Among the companies listed on the National Stock Exchange (NSE), only about 3% have women CEOs.",
+            "There is no national minimum wage in India, and minimum wages are set by state governments. However, according to data from the NSSO, women make up approximately 42% of all workers in the country who earn less than ₹10,000 (approximately $136 USD) per month as of 2017-2018.",
+            "There is no comprehensive data on the percentage of working women in India who have access to flexible work arrangements such as telecommuting or flexible schedules. However, some companies in India are beginning to offer more flexible work options, particularly in response to the COVID-19 pandemic.",
+            "As of 2021, there are an estimated 8 million women-owned businesses in India, accounting for approximately 14% of all businesses.",
+            "There is no comprehensive data on the percentage of women who work part-time in India. However, part-time work is less common in India than in many other countries, and many women who work in India do so in the informal sector or as self-employed entrepreneurs.",
+            "There is no official retirement age for women in India. However, many women in India retire earlier than men due to social and cultural expectations, as well as family responsibilities."
+            ]
+            },
+            {
+            "tag": "women in military",
+            "patterns": [
+            "What is the average retirement age for women in India?",
+            "What percentage of the world's military personnel are women?",
+            "In which countries are women allowed to serve in combat roles in the military?",
+            "What is the percentage of women in the United States military?",
+            "What is the average salary for women in the military compared to men?",
+            "What percentage of women in the military have experienced sexual harassment or assault?",
+            "What percentage of military veterans in the world are women?",
+            "What percentage of women in the military receive maternity leave?",
+            "What is the percentage of women in leadership roles in the military worldwide?",
+            "What percentage of women in the military experience PTSD?",
+            "What is the percentage of women in the military who are mothers?"
+            ],
+            "responses": [
+            "There is no official retirement age for women in India. However, many women in India retire earlier than men due to social and cultural expectations, as well as family responsibilities.",
+            "According to data from the Stockholm International Peace Research Institute (SIPRI), women make up only about 11% of military personnel worldwide as of 2020.",
+            "As of 2021, at least 25 countries allow women to serve in combat roles in their military, including Australia, Canada, Denmark, France, Germany, Israel, New Zealand, Norway, Poland, South Korea, and the United States. However, the specific roles and tasks that women are allowed to perform can vary by country.",
+            "As of 2020, women make up about 16% of the total active-duty military force in the United States.",
+            "There is no comprehensive data on the average salary of women in the military compared to men worldwide. However, in the United States, women in the military earn about 97% of what men in the military earn on average, according to data from the Department of Defense.",
+            "Sexual harassment and assault are significant issues in the military worldwide, and the exact rates of these incidents can be difficult to determine. However, according to a report by the RAND Corporation, approximately 20% of active-duty women in the United States military reported experiencing sexual harassment or assault in 2018.",
+            "There is no comprehensive data on the percentage of military veterans worldwide who are women. However, in the United States, women make up about 10% of all veterans.",
+            "Maternity leave policies for women in the military can vary widely by country and military branch. In the United States, women in the military are entitled to up to 12 weeks of unpaid maternity leave under the Family and Medical Leave Act (FMLA), and some branches of the military offer additional paid leave.",
+            "Women are significantly underrepresented in leadership roles in the military worldwide. According to data from the Inter-Parliamentary Union, women make up only about 10% of all defense ministers and 9% of all heads of armed forces worldwide as of 2021.",
+            "Post-traumatic stress disorder (PTSD) is a significant issue among military personnel of all genders, and the exact rates of PTSD among women in the military can be difficult to determine. However, according to a study by the Department of Veterans Affairs, women who served in the military are more likely than civilian women to experience PTSD, with rates estimated to be as high as 15-20%.",
+            "There is no comprehensive data on the percentage of women in the military who are mothers worldwide. However, in the United States, approximately 40% of active-duty women in the military are also mothers."
+            ]
+            },
+            {
+            "tag": "work life balance",
+            "patterns": [
+            "How to manage work-life balance?",
+            "I don't feel like I have enough support at work to balance my personal life",
+            "What strategies should I try to improve my work-life balance?",
+            "I experience burnout at work",
+            "I am struggling with work-life balance"
+            ],
+            "responses": [
+            "To manage work-life balance, try to prioritize time by setting boundaries between work and personal life. For example, turn off work email after a certain time and make sure to spend time with family and friends.",
+            "If you don't feel like you have enough support at work to balance your personal life, try talking to your employer and sharing your situation with colleagues. Believe that they will understand and help you out.",
+            "To improve work-life balance, try delegating tasks at work and at home, practicing self-care like exercising and meditation, and setting realistic goals and deadlines.",
+            "If you experience burnout at work, take a step back to reevaluate your priorities and work habits. Try things such as meditation, deep breathing, and listening to soothing music.",
+            "If you're struggling with work-life balance, find a support system, whether it's a mentor, therapist, or friend, who can help provide guidance and perspective. It's also important to set realistic expectations for yourself and communicate your needs and boundaries to your employer and loved ones."
+            ]
+            },
+            {
+              "tag": "gender bias and discrimination",
+              "patterns": [
+              "being a business women, i feel Gender bias and discrimination"],
+              "responses":["Balancing work and personal life can be difficult, especially if you have children or other caregiving responsibilities. Prioritize your time and set boundaries between work and home. Consider delegating tasks or hiring help if necessary. Don't forget to take care of yourself, whether that means exercising, meditating, or taking a break when you need it."]
+            },
+            {
+              "tag": "funding and financing",
+              "patterns": [
+                "Q: I’ve recently started my business.",
+                "I am about to start my business", 
+                "I find it difficult to raise funds for my business because investors don’t agree easily to a women-led firm."],
+              "responses":[
+                " Starting or growing a business requires capital, and women-owned businesses may have a harder time securing funding. Be prepared to do your research and approach investors or lenders with a solid business plan and financial projections. Consider alternative funding sources, such as crowdfunding or small business grants."
+              ]          
+            },
+            {
+              "tag":"networking and mentorship",
+              "patterns": [
+                "I am new in the industry and find it difficult to cope up with recent trends.",
+              "I have no connections and no one to guide or support."],
+              "responses": [ "Building a network of professional contacts and finding a mentor can be challenging, especially if you are new to the industry. Attend industry events and conferences, join professional organizations, and connect with others on social media. Look for mentors who can provide guidance and support as you navigate your career."]
+            },
+            {
+              "tag": "imposter syndrome",
+              "patterns": [
+                "I feel i am having/facing imposter syndrome",
+                "I dont feel that  I am qualified enough for this position",
+                  "i feel that my life as a business woman is very challenging",
+                "I am a hostelite and feel unsecured about myself especially at nights. I think I always judge myself and I self-doubt",
+              "How to avoid self-doubting",
+            "I always think about my weaknesses although I want to think about my strengths.",
+            " I feel that I am so engrossed in work that I forget to take care of my physical and mental well–being.",
+            " i am a woman and i think i have got hormonal imbalances. please help",
+            "What are  Some common symptoms of hormonal imbalances in women ?"],
+              "responses": ["Many women struggle with feeling like they don't belong or aren't qualified for their position. Recognize that these feelings are common, but they don't reflect your actual abilities or accomplishments. Focus on your strengths and achievements, and don't be afraid to ask for help or advice when you need it.",
+            "the key to overcoming challenges as a businesswoman is to believe in yourself, stay focused on your goals, and seek out support and guidance when you need it. Remember that every challenge presents an opportunity for growth and learning, and that perseverance and resilience are essential traits for success in any field.",
+            "Feeling insecure and self-doubting is a common experience, especially when we are in new or unfamiliar situations. As a hostelite, you may be adjusting to living away from home and being in a new environment, which can be challenging. However, there are some things you can do to help improve your sense of security and confidence: Talk to someone , Practice self-care , Identify your strengths,Challenge negative thoughts, Take action:", 
+            "When you notice yourself having negative or self-doubting thoughts, try to challenge them with evidence that contradicts them. For example, if you are thinking I'm not good enough try to think of times when you have succeeded or received positive feedback.",
+            "It can be helpful to focus on the things that you are good at and the accomplishments you have achieved. Take some time to identify your strengths and celebrate your successes.",
+            "Taking care of yourself physically and mentally can help you feel better overall. Make sure you are getting enough sleep, eating well, and exercising regularly. You could also try practicing relaxation techniques like meditation or yoga.",
+            "If you suspect you have hormonal imbalances, the best course of action is to schedule an appointment with your healthcare provider. They can help evaluate your symptoms, perform any necessary tests, and provide a diagnosis and treatment plan if needed.",
+            "Some common symptoms of hormonal imbalances in women include:Irregular menstrual periods, Heavy or light periods,Missed periods,Mood changes, such as depression or anxiety,Weight gain or loss,Fatigue,Hot flashes or night sweats,Acne,Excessive hair growth on the face or body, Hair loss or thinning"]
+            }
+          ]
+      }
